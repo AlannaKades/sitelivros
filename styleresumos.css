@@ -1,0 +1,41 @@
+@import url(styles.css);
+
+.resumos{
+    display: flexbox;
+    padding: 5px;
+    border: 3px solid var(--vermelho);
+    width: 98%;
+}
+.cabecalho{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.logoplace{
+    background-color: var(--vermelho);
+}
+
+.titulo{
+    background-color: var(--vermelho);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -60px;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sim{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--vermelho);
+}
+a:visited{
+    color: black;
+}
